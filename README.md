@@ -1,1 +1,0 @@
-# studiomedicoceo.github.io
