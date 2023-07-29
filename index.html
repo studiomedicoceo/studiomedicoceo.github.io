@@ -25,9 +25,9 @@
 </head>
 
 <body>
-  <div class="container" style="color: white;">
+  <div class="container" style="color: white; overflow-x: hidden;">
 
-    <div class="row pt-3 align-items-center pb-3" style="border-bottom: 1px solid var(--bs-gray-dark);">
+    <div class="row pt-3 align-items-center pb-3 sticky-top" style="border-bottom: 1px solid var(--bs-gray-dark); background-color: #212529;">
       <div class="col-lg-9 d-flex" style="position: relative; left: 20px;">
         <img src="images/logo.svg" alt="..." width="55px"/>
         <div style="padding-left: 25px;">
@@ -36,12 +36,12 @@
         </div>
       </div>
 
-      <div class="col text-center pt-3 fw-bold"><a class="nav-link" href="index.html">Home</a></div>
-      <div class="col text-center pt-3 fw-bold"><a class="nav-link" href="orari.html">Orari</a></div>
-      <div class="col text-center pt-3 fw-bold"><a class="nav-link" href="contatti.html">Contatti</a></div>
+      <div class="col text-center pt-3 fw-bold" style="font-size: 12px;"><a class="nav-link" href="index.html">HOME</a></div>
+      <div class="col text-center pt-3 fw-bold" style="font-size: 12px;"><a class="nav-link" href="orari.html">ORARI</a></div>
+      <div class="col text-center pt-3 fw-bold" style="font-size: 12px;"><a class="nav-link" href="contatti.html">CONTATTI</a></div>
     </div>
 
-    <h1 class="fw-bold pt-3 pb-3">Avvisi</h1>
+    <p class="avviso fw-bold pt-4 text-end" style="color: var(--cust-red); border-bottom: 1px solid var(--cust-red);">AVVISI</p>
 
     <!-- AVVISI -->
     <div class="avviso pb-5 pt-3">
@@ -55,24 +55,26 @@
         <div class="text-center">sarà assente</div>
         <div class="text-center pb-4">Dal 31 luglio al 18 agosto 2023</div>
         <div class="pb-2 text-center">Sarà sostituita dal 31 luglio al 9 agosto dalla Dott.ssa <b>Palmari</b>:</div>
-        <table class="table table-borderless table-dark table-sm">
-          <tbody>
-            <tr>
-              <td colspan="2">Via San Giacomo in Monte 24</td>
-            </tr>
-            <tr>
-              <td colspan="2">Tel. <i>(+39) 040 773657</i></td>
-            </tr>
-            <tr>
-              <td>Lunedì - Mercoledì - Venerdì</td>
-              <td>Chiamare dalle 09:00 alle 11:00</td>
-            </tr>
-            <tr>
-              <td>Martedì - Giovedì</td>
-              <td>Chiamare dalle 16:00 alle 18:00</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-borderless table-dark" style="white-space: nowrap;">
+            <tbody>
+              <tr>
+                <td colspan="2">Via San Giacomo in Monte 24</td>
+              </tr>
+              <tr>
+                <td colspan="2">Tel. <i>(+39) 040 773657</i></td>
+              </tr>
+              <tr>
+                <td>Lunedì - Mercoledì - Venerdì</td>
+                <td>Chiamare dalle 09:00 alle 11:00</td>
+              </tr>
+              <tr>
+                <td>Martedì - Giovedì</td>
+                <td>Chiamare dalle 16:00 alle 18:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <div class="pt-3 text-center">E dal 10 agosto al 18 agosto 2023 dat Dott. <b>Mauri</b> da contattare al numero
           <i>(+39) 339 894 9662</i></div>
       </div>
